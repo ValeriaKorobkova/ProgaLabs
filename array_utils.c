@@ -28,7 +28,7 @@ void fill_rnd(int array[], int size)
 {
     for (int i = 0; i < size; i++)
     {
-        array[i] = rng(-100, 100);
+        array[i] = rng(-50, 50);
     }
 }
 
